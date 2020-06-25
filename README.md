@@ -19,4 +19,6 @@ npm run start
 ```
 ## Deployed Application
 
-[Deployed on Heroku](#)
+[Deployed on Heroku](https://workout-tracker-erenegar.herokuapp.com/)
+
+
