@@ -21,7 +21,7 @@ app.use(express.json());
 
 app.use(express.static('public'));
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://egrenegar:workouttracker1@ds051788.mlab.com:51788/heroku_43f9ck1n', { useNewUrlParser: true });
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/workout', { useNewUrlParser: true });
 
 //==========API ROUTES===========//
 app.get('/api/workouts', (req, res) => {
