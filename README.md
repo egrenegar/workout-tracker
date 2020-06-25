@@ -9,7 +9,7 @@ To install necessary dependencies, run the following code:
 npm i
 ```
 ## Usage
-To seed the database, run the following code:
+To seed the database, run the following command:
 ```sh
 npm run seed
 ```
