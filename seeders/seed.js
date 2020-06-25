@@ -127,9 +127,11 @@ let workoutSeed = [
     exercises: [
       {
         type: "resistance",
-        name: "Bench",
-        duration: 30,
-        distance: 2
+        name: "Glute Bridge",
+        duration: 5,
+        weight: 15,
+        reps: 10,
+        sets: 4
       }
     ]
   }
